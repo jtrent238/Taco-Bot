@@ -1,0 +1,466 @@
+Red - A multifunction Discord bot by Twentysix
+
+Admin:
+  addrole              Adds a role to a user, defaults to author
+  adminset             Manage Admin settings
+  announce             Announces a message to all servers that a bot is in.
+  partycrash           Lists servers and generates invites for them
+  removerole           Removes a role from user, defaults to author
+  say                  Bot repeats what you tell it to, utility for scheduler.
+  selfrole             Allows users to set their own role.
+  serverlock           Toggles locking the current server list, will not join...
+  sudo                 Runs the [command] as if [user] had run it. DON'T ADD ...
+Alias:
+  alias                Manage per-server aliases for commands
+Antilink:
+  antilinkset          Manages the settings for antilink.
+AutoApprove:
+  addbot               Requires your OAUTH2 URL to automatically approve your...
+  autoapprove          
+Away:
+  away                 Tell the bot you're away or back.
+BarPM:
+  bar                  Choose your poison
+BotInfo:
+  botinfo              General bot information
+  invite               Invite me to a new server
+  servercount          General global server information
+  support              Support continued bot and cog development.
+  welcome              
+Buyrole:
+  buyrole              Buy roles with economy credits,
+  buyroleset           Manage buyrole
+Catfact:
+  catfact              Gets a random cat fact
+ChannelLogger:
+  channellogger        Toggles logging for a channel
+Cleverbot:
+  cleverbot            Talk with cleverbot
+ColorMe:
+  colorme              Change the color of your name via custom roles.
+Cookie:
+  cookie               Obtain a random number of cookies. 12h cooldown
+  give                 Gives another user your cookies
+  jar                  See how many cookies are in your jar.
+  setcookie            Cookie settings group command
+  steal                Steal cookies from another user. 2h cooldown.
+Coventry:
+  coventry             Commands for giving users their own private yelling sp...
+CustomCommands:
+  customcom            Custom commands management
+Dan:
+  dan                  Retrieves the latest result from Danbooru
+  danfilter            Manages dan filters
+  danr                 Retrieves a random result from Danbooru
+  danset               Manages dan options
+Defcon:
+  defcon               Reports the server DEFCON level.
+  defcon+              Elevates the server DEFCON level.
+  defcon-              Lowers the server DEFCON level.
+  setdefcon            Manually set the server DEFCON level in case of emerge...
+Description:
+  description          Sets the bot's description text
+Dongers:
+  donger               Print a random donger in chat
+Dota:
+  dota                 Returns various data for dota players
+Downloader:
+  cog                  Additional cogs management
+Duel:
+  duel                 Duel another player
+  duels                
+  protect              Adds a member or role to the protected members list
+  protected            Displays the duel protection list
+  unprotect            Removes a member or role to the protected members list
+E621:
+  e621                 Retrieves the latest result from e621
+  e621filter           Manages e621 filters
+  e621r                Retrieves a random result from e621
+  e621set              Manages e621 settings
+Economy:
+  bank                 Bank operations
+  economyset           Changes economy module settings
+  leaderboard          Server / global leaderboard
+  payday               Get some free credits
+  payouts              Shows slot machine payouts
+  slot                 Play the slot machine
+Economytrickle:
+  registerbot          registers the bot into Economy.py bank.
+  trickleset           Changes economy trickle settings
+Emote:
+  emotes               Emote settings
+Encoder:
+  encode               Encodes a song to pickled pcm data
+  fakeplay             
+Engine:
+  vroom                You don't need no instruction manual to be free!!
+Feed:
+  feed                 Force A food Item Down A Users Throat
+Fetch:
+  fetch                Fetches stuff to user
+Fortune:
+  fortune              Ask for your fortune
+Fun:
+  bribe                Find out who is paying under the table
+  butts                butts
+  calculated           That was 100% calculated!
+  commands             Command the bot
+  daddy                Pass the salt
+  flirt                Slide into DMs
+  fun                  Toggle counting for fun-based commands
+  love                 Found your one true love?
+  pizza                How many slices of pizza have you eaten today?
+  squat                How is your workout going?
+  sword                Sword Duel!
+  updog                This is updog
+GNU:
+  cat                  Echoes input to output
+  clog                 Manage chat logs
+  grep                 Print lines that contain a match for a pattern
+  pastebin             Set pastebin API key
+  sed                  A simple stream editor
+  tac                  Echoes input to output in reverse by line or user spec...
+  tail                 Prints the last part (10 lines by default) of input
+  wc                   Count the number of characters, whitespace-separated w...
+GVAnalytics:
+  gvanalytics          Enable or disable analytics for calebj cogs
+Games:
+  games                Shows top 10 most popular games on this server.
+Gaming:
+  gaming               Returns info about the cog
+  lfg                  Manages LFG
+  profiles             Adds, edits and removes gaming network profile data
+Geico:
+  bash                 Retrieves a quote from bash.org. num can be specified ...
+  quotes               Retrieves a specified number of quotes from a specifie...
+General:
+  8                    Ask 8 ball a question
+  choose               Chooses between multiple choices.
+  flip                 Flips a coin... or a user.
+  lmgtfy               Creates a lmgtfy link
+  poll                 Starts/stops a poll
+  rps                  Play rock paper scissors
+  serverinfo           Shows server's informations
+  stopwatch            Starts/stops stopwatch
+  urban                Urban Dictionary search
+  userinfo             Shows users's informations
+GithubCards:
+  githubcards          Manage GitHub Cards
+Greet:
+  greetset             Sets welcome module settings
+Hal:
+  hal                  Speak with HAL
+Heist:
+  heist                General heist related commands
+  setheist             Set different options in the heist config
+Horoscope:
+  font                 Allows you to set the font that the fortune cookies ar...
+  horo                 Retrieves today's horoscope for a zodiac sign.
+  tsujiura             Retrieves a random fortune cookie fortune.
+HubLinker:
+  hublink              
+Hunting:
+  hunting              Hunting, it hunts birds... and things that fly
+Image:
+  gif                  Retrieves first search result from giphy
+  gifr                 Retrieves a random gif from a giphy search
+  imgur                Retrieves pictures from imgur
+InVoice:
+  invoicerole          Set a role
+Kill:
+  addkill              Variables:
+  kill                 Randomly chooses a kill.
+  removekill           Remove a kill
+Kona:
+  kona                 Retrieves the latest result from Konachan
+  konafilter           Manages kona filters
+  konar                Retrieves a random result from Konachan
+  konaset              Manages kona options
+Lastfm:
+  lastfm               Get Last.fm statistics of a user.
+Lenny:
+  lenny                Displays a random ASCII face.
+LogTools:
+  logs                 Retrieve logs, the slowpoke way.
+Markov:
+  clear                Clears the data for specific channel.
+  markov               This isn't the text you want.
+  size                 Shows the size of the file.
+Memes:
+  booty                
+  cerealguy            
+  cute                 
+  facepalm             
+  foreveralone         
+  hihi                 
+  kappa                
+  megarage             
+  notsure              
+  ohyou                
+  pirate               
+  rekt                 
+  sir                  
+  tableflip            
+  troll                
+  trolldance           
+  yuno                 
+MentionTracker:
+  mention              Saves your mentions when you're not online.
+  mentionset           Manage mentiontracker settings
+Mod:
+  ban                  Bans user and deletes last X days worth of messages.
+  cleanup              Deletes messages.
+  editrole             Edits roles settings
+  filter               Adds/removes words from filter
+  hackban              Preemptively bans user from the server
+  ignore               Adds servers/channels to ignorelist
+  kick                 Kicks user.
+  modset               Manages server administration settings.
+  mute                 Mutes user in the channel/server
+  names                Show previous names/nicknames of a user
+  reason               Lets you specify a reason for mod-log's cases
+  rename               Changes user's nickname
+  softban              Kicks the user, deleting 1 day worth of messages.
+  unignore             Removes servers/channels from ignorelist
+  unmute               Unmutes user in the channel/server
+Moji:
+  emoji                Send a large custom emoji. 
+  moji                 Various emoji operations
+Msgvote:
+  msgvote              Msgvote cog settings
+NewsAnnouncer:
+  addnewschannel       Adds news functionality for a channel. Channel prefix is
+  deletenewschannel    Removes news functionality for a channel
+  joinnews             Joins the news role for the current channel
+  leavenews            Leaves the news role for the current channel
+  makeannouncement     Makes an announcement in the current channel
+Newsletter:
+  newsletter           Newsletter Commands
+Nickometer:
+  nickometer           Tells you how lame a person with this name is, 100% ac...
+NoBots:
+  nobots               NoBots toggle
+Osu:
+  ctb                  Gives ctb user(s) stats. Use -ripple/-official to use ...
+  ctbtop               Gives ctb osu plays. Use -ripple/-official to use spec...
+  mania                Gives mania user(s) stats. Use -ripple/-official to us...
+  maniatop             Gives top mania plays. Use -ripple/-official to use sp...
+  osu                  Gives osu user(s) stats. Use -ripple/-official to use ...
+  osuset               Where you can define some settings
+  osutop               Gives top osu plays. Use -ripple/-official to use spec...
+  osutrack             Where you can define some settings
+  recent               Gives recent plays of player with respect to user's de...
+  taiko                Gives taiko user(s) stats. Use -ripple/-official to us...
+  taikotop             Gives top taiko plays. Use -ripple/-official to use sp...
+Overwatch:
+  overwatch            Overwatch Stats
+Owner:
+  blacklist            Blacklist management commands
+  cogs                 Shows loaded/unloaded cogs
+  command              Disables/enables commands
+  contact              Sends a message to the owner
+  info                 Shows info about Red
+  join                 Shows Red's invite URL
+  leave                Leaves server
+  load                 Loads a cog
+  reload               Reloads a cog
+  restart              Attempts to restart Red
+  servers              Lists and allows to leave servers
+  set                  Changes Red's core settings
+  shutdown             Shuts down Red
+  traceback            Sends to the owner the last command exception that has...
+  unload               Unloads a cog
+  uptime               Shows Red's uptime
+  version              Shows Red's current version
+  whitelist            Whitelist management commands
+Pathfinder:
+  roll                 Roll a die with x sides; Has option for rolling x die.
+Penis:
+  penis                Detects user's penis length
+Ping:
+  pingt                pseudo-ping time
+Pokedex:
+  pokedex              This is the list of pokemon queries you can perform.
+Pony:
+  pony                 Retrieves the latest result from Derpibooru
+  ponyfilter           Manages pony filters
+  ponyr                Retrieves a random result from Derpibooru
+  ponyset              Manages pony options
+PressF:
+  pressf               Pay Respects by pressing f
+PurgePins:
+  purgepins            Set delay for deletion of pin messages, or disable it.
+  rotatepins           Sets whether the oldest pin is automatically removed a...
+Q20:
+  twentyq              20 Questions commands..
+Quotes:
+  allquotes            Gets a list of all quotes
+  delquote             Deletes a quote by its number
+  quote                Adds quote, retrieves random one, or a numbered one.
+REPL:
+  dir                  displays the attributes of a thing
+  pyhelp               displays the help documentation for a python thing
+  replset              global repl settings
+  rtfs                 tries to show the source file of a thing
+Raffle:
+  raffle               Raffle Commands
+RandGame:
+  randgame             Adjust settings and game list.
+RandImage:
+  addcategory          Adds a new category.
+  addimage             Adds a new image to the specified category.
+  allcategories        Sends all categories in a PM.
+  delcategory          Deletes a category and all the images in it.
+  randimage            Chooses a random image from the given category and sen...
+RandomStatus:
+  rndstatus            
+ReCensor:
+  recensor             Configure regular expression censorship
+Reddit:
+  reddit               Main Reddit command
+  redditset            Commands for setting reddit settings.
+  subreddit            Commands for getting subreddits
+RemindMe:
+  forgetme             Removes all your upcoming notifications
+  remindme             Sends you <text> when the time is up
+ReviewEmoji:
+  checkemoji           Check the status of a submitted emoji.
+  reviewemoji          Review emoji submissions.
+  submitemoji          Submits a new emoji for review.
+Rift:
+  riftopen             Makes you able to communicate with other channels thro...
+Roller:
+  last                 Shows last roll
+  rd                   Rolls dices in the XdY+MOD style
+  rds                  Check if was successfull based on a success rate
+Rules:
+  roti                 ROTI
+Runescape:
+  alog                 Gets a users recent adventure log
+  dropcalc             Calculates your chances of (not) getting a drop.
+  hs                   Gets hiscores info
+Russianroulette:
+  resetrr              Reset command if game is stuck.
+  rrversion            Shows the version of Russian Roulette
+  russian              
+  setrussian           Russian Roulette Settings
+SCP:
+  anomalousitems       Look through the log of anomalous items.
+  extranormalevents    Look through the log of extranormal events.
+  scp                  Look up SCP articles. Warning: Some of them may be too...
+  scparc               Look up SCP archives. Warning: Some of them may be too...
+  scpex                Look up explained SCP articles. Warning: Some of them ...
+  scpj                 Look up SCP-Js. Reminder: Enter the correct name or el...
+  unexplainedlocations Look through the log of unexplained locations.
+SRRecords:
+  getrecords           Gets records for the specified game
+  srset                Speedrun settings
+Sadface:
+  sadface              Enables/Disables sadface for this server
+Scheduler:
+  scheduler            
+Seen:
+  seen                 seen <@username>
+ServerInfo:
+  sinfo                Show server , owner and channel info
+ServerQuotes:
+  addquote             Adds a quote to the server quote list. The quote must ...
+  lsquotes             Displays a list of all quotes
+Sfx:
+  addsfx               Adds a new sound.
+  allsfx               Sends a list of every sound in a PM.
+  delsfx               Deletes an existing sound.
+  getsfx               Gets the given sound.
+  sfx                  Plays the specified sound.
+  sfxvol               Sets the volume for the specified sound.
+  tts                  Play a TTS clip in your current channel
+Shop:
+  inventory            Shows a list of items you have purchased
+  pending              Pending list commands
+  setshop              Shop configuration settings
+  shop                 Shop Commands. Use !help Shop for other command groups
+SimplyGoogle:
+  google               Its google, you search with it.
+Slap:
+  slap                 Slap a user
+SmartReact:
+  addreact             Add an auto reaction to a word
+  delreact             Delete an auto reaction to a word
+Smite:
+  smite                Smite cog commands.
+Snacktime:
+  snackset             snack stuff
+  snacktime            Man i'm hungry! When's snackburr gonna get back with m...
+Spotify:
+  spotify              Search for a song on Spotify
+Steam:
+  steam                
+  steamupdate          
+StickyRoles:
+  stickyroles          Adds / removes roles to be reapplied on join
+Strawpoll:
+  strawpoll            Makes a poll based on questions and choices or options...
+  strawpollset         Toggle the different options available for polls
+Streams:
+  hitbox               Checks if hitbox stream is online
+  mixer                Checks if mixer stream is online
+  picarto              Checks if picarto stream is online
+  streamalert          Adds/removes stream alerts from the current channel
+  streamset            Stream settings
+  twitch               Checks if twitch stream is online
+Tickets:
+  cleartickets         Clears all tickets
+  deleteticket         Deletes any number of tickets, default = 1
+  nextticket           Gets the next ticket
+  ticket               Adds ticket.
+  ticketset            Ticket cog settings
+TokyoTosho:
+  tt                   TokyoTosho search and RSS alerts
+Transformice:
+  tfm                  Get Transformice Stats
+Translated:
+  settr                Magic OP commands for translated
+  translate            Translate text with use of translated.net 
+Trigger:
+  trigger              Trigger creation commands
+  triggerset           Edits the settings of a trigger
+Trivia:
+  trivia               Start a trivia session with the specified list
+  triviaset            Change trivia settings
+Unicode:
+  unicode              Encode/Decode a Unicode character.
+Wat:
+  watignore            Change Wat cog ignore settings.
+Weather:
+  temperature          Get the temperature only!
+Welcome:
+  welcomeset           Sets welcome module settings
+WhoPlays:
+  cgames               Shows the currently most played games
+  whoplays             Shows a list of all the people playing a game.
+Wikipedia:
+  wikipedia            Get information from Wikipedia
+YouTube:
+  youtube              Search on Youtube
+YourFortune:
+  getfortune           What is your fortune? Well then, lets find out...
+Zalgo:
+  zalgo                
+imdb:
+  apikey_imdb          Set the imdb API key.
+  imdb                 Search for movies on imdb
+jtrent238:
+  inviteme             Get an invite to jtrent238's server!
+  punch                I will puch anyone! >.<
+  tacoplease           This does stuff!
+on_join:
+  joinmsg              Join Message - Allows you to set a message when the bo...
+weatherMs:
+  setcountry           Sets the default country/zip code.
+  temp                 Make sure to get your own API key and put it into data...
+  toggleunit           Switches the default unit: Celcius/Farherheit.
+​No Category:
+  help                 Shows this message.
+
+Type T!help command for more info on a command.
+You can also type T!help category for more info on a category.
