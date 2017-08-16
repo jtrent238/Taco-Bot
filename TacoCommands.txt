@@ -12,13 +12,27 @@ Admin:
   sudo                 Runs the [command] as if [user] had run it. DON'T ADD ...
 Alias:
   alias                Manage per-server aliases for commands
+Animal:
+  cats                 Shows a cat
+  catsbomb             Throws a cat bomb!
+  pugs                 Shows a pug
+  pugsbomb             Throws a pugs bomb!
+Animelist:
+  anime                Fetches info about an anime title!
+  animeset             Sets your username and password from myanimelist
+  manga                Fetches info about an manga title!
 Antilink:
   antilinkset          Manages the settings for antilink.
 AutoApprove:
   addbot               Requires your OAUTH2 URL to automatically approve your...
   autoapprove          
+Autorole:
+  autorole             Change settings for autorole
 Away:
   away                 Tell the bot you're away or back.
+BanRole:
+  banrole              Bans all members with the specified role.
+  unbanrole            Unbans all users who had the specified role when
 BarPM:
   bar                  Choose your poison
 BotInfo:
@@ -30,6 +44,16 @@ BotInfo:
 Buyrole:
   buyrole              Buy roles with economy credits,
   buyroleset           Manage buyrole
+Casino:
+  allin                It's all or nothing. Bets everything you have.
+  blackjack            Modified Blackjack.
+  casino               Casino Group Commands
+  coin                 Bet on heads or tails
+  cups                 Pick the cup that is hiding the gold coin. Choose 1, 2...
+  dice                 Roll 2, 7, 11 or 12 to win.
+  hilo                 Pick High, Low, Seven. Lo is < 7 Hi is > 7. 6x payout ...
+  setcasino            Configures Casino Options
+  war                  Modified War Card Game.
 Catfact:
   catfact              Gets a random cat fact
 ChannelLogger:
@@ -48,6 +72,13 @@ Coventry:
   coventry             Commands for giving users their own private yelling sp...
 CustomCommands:
   customcom            Custom commands management
+CustomGlobalCommands:
+  agcom                
+  lsgcom               Shows global custom commands list
+  rmgcom               Removes a global custom command
+  setgcom              Adds a global custom command
+CustomRoles:
+  role                 Mods can add roles, users can apply or relieve roles. ...
 Dan:
   dan                  Retrieves the latest result from Danbooru
   danfilter            Manages dan filters
@@ -98,8 +129,6 @@ Feed:
   feed                 Force A food Item Down A Users Throat
 Fetch:
   fetch                Fetches stuff to user
-Fortune:
-  fortune              Ask for your fortune
 Fun:
   bribe                Find out who is paying under the table
   butts                butts
@@ -148,6 +177,8 @@ GithubCards:
   githubcards          Manage GitHub Cards
 Greet:
   greetset             Sets welcome module settings
+Grenzpolizei:
+  border               
 Hal:
   hal                  Speak with HAL
 Heist:
@@ -161,12 +192,12 @@ HubLinker:
   hublink              
 Hunting:
   hunting              Hunting, it hunts birds... and things that fly
-Image:
-  gif                  Retrieves first search result from giphy
-  gifr                 Retrieves a random gif from a giphy search
-  imgur                Retrieves pictures from imgur
 InVoice:
   invoicerole          Set a role
+Karma:
+  karma                Checks a user's karma, requires @ mention
+  karmaboard           Karma leaderboard
+  karmaset             Manage karma settings
 Kill:
   addkill              Variables:
   kill                 Randomly chooses a kill.
@@ -180,12 +211,23 @@ Lastfm:
   lastfm               Get Last.fm statistics of a user.
 Lenny:
   lenny                Displays a random ASCII face.
+Lockdown:
+  lockdown             Toggles the lockdown mode
+  lockdownset          Settings for lockdown
+  unlockdown           Ends the lockdown for this server
 LogTools:
   logs                 Retrieve logs, the slowpoke way.
+Lottery:
+  lottery              Lottery Group Command
+  setlottery           Lottery Settings
 Markov:
   clear                Clears the data for specific channel.
   markov               This isn't the text you want.
   size                 Shows the size of the file.
+MassDM:
+  massdm               Sends a DM to all Members with the given Role.
+Membership:
+  membershipset        Sets membership settings.
 Memes:
   booty                
   cerealguy            
@@ -207,6 +249,8 @@ Memes:
 MentionTracker:
   mention              Saves your mentions when you're not online.
   mentionset           Manage mentiontracker settings
+MessagePinner:
+  pintrigger           Sets the pin trigger for the current server
 Mod:
   ban                  Bans user and deletes last X days worth of messages.
   cleanup              Deletes messages.
@@ -279,6 +323,12 @@ Penis:
   penis                Detects user's penis length
 Ping:
   pingt                pseudo-ping time
+Points:
+  add_member           Adds a member to the list, defaults to author
+  add_points           Adds points to a member or multiple members. Defaults ...
+  balance              Allows to show the balance of a user. Defaults to author.
+  balance_all          Allows to show the balance of all the registered users.
+  del_points           Takes away points from a member or multiple members. D...
 Pokedex:
   pokedex              This is the list of pokemon queries you can perform.
 Pony:
@@ -302,6 +352,8 @@ REPL:
   pyhelp               displays the help documentation for a python thing
   replset              global repl settings
   rtfs                 tries to show the source file of a thing
+RSS:
+  rss                  RSS feed stuff
 Raffle:
   raffle               Raffle Commands
 RandGame:
@@ -316,6 +368,8 @@ RandomStatus:
   rndstatus            
 ReCensor:
   recensor             Configure regular expression censorship
+ReactPoll:
+  rpoll                Starts/stops a reaction poll
 Reddit:
   reddit               Main Reddit command
   redditset            Commands for setting reddit settings.
@@ -363,9 +417,6 @@ Seen:
   seen                 seen <@username>
 ServerInfo:
   sinfo                Show server , owner and channel info
-ServerQuotes:
-  addquote             Adds a quote to the server quote list. The quote must ...
-  lsquotes             Displays a list of all quotes
 Sfx:
   addsfx               Adds a new sound.
   allsfx               Sends a list of every sound in a PM.
@@ -429,10 +480,10 @@ Trivia:
   triviaset            Change trivia settings
 Unicode:
   unicode              Encode/Decode a Unicode character.
+Untableflip:
+  tableset             Got some nice settings for my UNflipped tables
 Wat:
   watignore            Change Wat cog ignore settings.
-Weather:
-  temperature          Get the temperature only!
 Welcome:
   welcomeset           Sets welcome module settings
 WhoPlays:
@@ -450,7 +501,10 @@ imdb:
   apikey_imdb          Set the imdb API key.
   imdb                 Search for movies on imdb
 jtrent238:
-  inviteme             Get an invite to jtrent238's server!
+  inviteme             Invite me to your server
+  joinme               Get an invite to jtrent238's server!
+  kiss                 Kiss Someone
+  lick                 I will lick anyone! >.<
   punch                I will puch anyone! >.<
   tacoplease           This does stuff!
 on_join:
